@@ -2,10 +2,11 @@ import React from 'react'
 
 import {Header, About, NewEps, Subscribe} from './sections'
 // import Header from './sections/Header'
+import './App.css'
 
 const App = () => {
   return (
-    <div className='app'>
+    <div className='app container'>
       <div className='header'>
         <Header/>
       </div>
