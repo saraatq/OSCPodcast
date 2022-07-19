@@ -13,39 +13,7 @@ html{
     height: 100vh;
 }
 
-a{
-    text-decoration: none;
-    color: #000;
-}
-
-a:hover{
-    text-decoration: underline;
-}
-
-.btn{
-    padding: 0.75rem 1.5rem;
-    border-radius: 1.5rem;
-}
-
-.btn-primary{
-    background-color: #F6F400;
-    border: 1.5px solid transparent;
-}
-
-.btn-secondary{
-    border: 1.5px solid #666;
-}
-
-.btn:hover{
-    border-color: #666;
-    text-decoration: none;
-}
-
-.btn-secondary:hover{
-    background-color: rgba(0, 0, 0, 0.1)
-}
-
-.container{
+.app{
     width: 95vw;
     max-width: 1920px;
     margin: 0 auto;

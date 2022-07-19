@@ -1,6 +1,6 @@
 header{
     display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-columns: 1fr 1fr;
     align-items: center;
 
     padding: 1rem;
@@ -13,19 +13,52 @@ header .logo{
 }
 
 header nav {
-    justify-self: center;
+    justify-self: end;
 }
 
 header nav ul{
+    list-style: none;
     display: flex;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
-header .ctas {
-    justify-self: right;
+
+header nav ul li a{
+    padding: 0.3rem 1.5rem;
+    text-decoration: none;
+    color: #000;
 }
 
-header .ctas{
-    display: flex;
-    gap: 1rem;
+
+header nav ul li a.column:hover{
+    border: 1.5px solid transparent;
+    border-radius: 1.5rem;
+    background-color: #F6F400;
+}
+
+
+header nav ul li .btn{
+    border-radius: 1.5rem;
+}
+
+
+header nav ul li .btn-primary{
+    background-color: #F6F400;
+    border: 1.5px solid transparent;
+}
+
+
+header nav ul li .btn-secondary{
+    border: 1.5px solid #666;
+}
+
+
+header nav ul li .btn:hover{
+    border-color: #666;
+    text-decoration: none;
+}
+
+
+header nav ul li .btn-secondary:hover{
+    background-color: rgba(0, 0, 0, 0.1);
 }

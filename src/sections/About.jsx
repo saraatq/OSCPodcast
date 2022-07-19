@@ -5,7 +5,6 @@ import googlelogo from '../AboutImgs//logos/google.png'
 import applelogo from '../AboutImgs//logos/apple.png'
 import soundlogo from '../AboutImgs//logos/sound.png'
 import spotifylogo from '../AboutImgs//logos/spotify.png'
-import sop from '../'
 import './About.css'
 const About = () => {
   return (
@@ -13,8 +12,8 @@ const About = () => {
         <div className='wrapper'>
             <div className='left'>
                 <div className='imgwrapper'>
-                <img className='img1' src={bg1} />
-                <img className='img2' src={bg2} />
+                <img className='img1' src={bg1} alt="music" />
+                <img className='img2' src={bg2} alt="headphones"/>
                 </div>
             </div>
             <div className='right'>
@@ -35,10 +34,10 @@ const About = () => {
             <h6 className='footerh'>Prodcasts available on </h6>
             
             <ul className='footerul'>
-                <li className='footerli'><a className='logolink' href='#'><img className='footerlogos' src={applelogo} /></a></li>
-                <li className='footerli'><a className='logolink' href='#'><img className='footerlogos' src={spotifylogo} /></a></li>
-                <li className='footerli'><a className='logolink'  href='#'><img className='footerlogos' src={googlelogo} /></a></li>
-                <li className='footerli'><a className='logolink'  href='#'><img className='footerlogos' src={soundlogo} /></a></li>
+                <li className='footerli'><a className='logolink' href='#apple'><img className='footerlogos' src={applelogo} alt="apple logo" /></a></li>
+                <li className='footerli'><a className='logolink' href='#spotify'><img className='footerlogos' src={spotifylogo} alt="spotify logo"/></a></li>
+                <li className='footerli'><a className='logolink'  href='#google'><img className='footerlogos' src={googlelogo} alt="google logo"/></a></li>
+                <li className='footerli'><a className='logolink'  href='#soundcloud'><img className='footerlogos' src={soundlogo} alt="soundcloud logo"/></a></li>
             </ul>
         </div>
     </div>

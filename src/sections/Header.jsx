@@ -9,16 +9,26 @@ const Header = () => {
       <img className="logo" src={logo} alt="logo" />
       <nav>
         <ul>
-          <a href="#home" className="column">Home</a>
-          <a href="#about" className="column">About</a>
-          <a href="#eps" className="column">Episodes</a>
-          <a href="#osc" className="column">OSC</a>
+          <li>
+            <a className="column" href="#home">Home</a>
+          </li>
+          <li>
+            <a className="column" href="#about">About</a>
+          </li>
+          <li>
+            <a className="column" href="#eps">Episodes</a>
+          </li>
+          <li>
+            <a className="column" href="#osc">OSC</a>
+          </li>
+          <li>
+            <a className='btn btn-secondary' href="#last-episode">Last Episode</a>
+          </li>
+          <li>
+            <a className='btn btn-primary' href="#subscribe">Subscribe</a>
+          </li>
         </ul>
       </nav>
-      <div className="ctas">
-        <a className='btn btn-secondary' href="#last-episode">Last Episode</a>
-        <a className='btn btn-primary' href="#subscribe">Subscribe</a>
-      </div>
     </header>
   )
 }
